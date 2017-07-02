@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"  android:title="@string/app_name">
+
+        <PreferenceCategory android:title="@string/app_setting">
+        <EditTextPreference android:title="@string/app_setting_password"
+            android:key="password"
+            android:summary="@string/app_setting_password_desc"></EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_security_setting">
+        <CheckBoxPreference android:title="@string/app_security_setting_screenlock"
+            android:key="screenlock"
+            android:summary="@string/app_security_setting_screenlock_desc">
+        </CheckBoxPreference>
+        <ListPreference android:key="reminder" android:title="@string/app_security_setting_reminder"
+            android:summary="@string/app_security_setting_reminder_desc"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

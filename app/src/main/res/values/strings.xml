@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment81</string>
+    <string name="app_setting">SETTINGS</string>
+    <string name="app_setting_password">Password</string>
+    <string name="app_setting_password_desc">Set Your Password</string>
+    <string name="app_security_setting">SECURITY SETTINGS</string>
+    <string name="app_security_setting_screenlock">Screen Lock</string>
+    <string name="app_security_setting_screenlock_desc">Lock The Screen with Password</string>
+    <string name="app_security_setting_reminder">Reminder for Updation</string>
+    <string name="app_security_setting_reminder_desc">Set Update Reminder Frequency</string>
+</resources>
